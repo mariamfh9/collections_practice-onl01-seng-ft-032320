@@ -30,10 +30,14 @@ def kesha_maker(array)
   array.each do |element|
     element[2] = "$"
   end 
-  
 end 
 
 def find_a(array)
-  array.findall? do |
+  array.findall do |letter|
+    letter = "a"
+  end
 end 
     
+def sum_array(array)
+  
+end
