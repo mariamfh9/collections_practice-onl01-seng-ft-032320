@@ -31,10 +31,9 @@ def kesha_maker(array)
     element[2] = "$"
   end 
 end 
-
 def find_a(array)
-  array.findall do |letter|
-    letter = "a"
+array.select do |word|
+    word[0] == "a"
   end
-end 
+end
     
